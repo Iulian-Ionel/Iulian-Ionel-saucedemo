@@ -1,0 +1,21 @@
+/* 
+
+
+- Performance test
+- Item Filtration
+- Item Search
+- There are multiple bugs found along the testing:
+
+The application allows the user to place an order without selecting any of the items
+The QTY cannot to changed (the user is unable to purchase two of the same items in the same order)
+The user is unable to remove items from “check out part two” 
+
+Item3 ID contains unsupported characters such as  () , 
+
+
+Thought of improvements: 
+
+could create a loop for each user type to run the tests automatically for each user 
+should've used a builder to create multiple classes instead of declaring them.
+
+*/
